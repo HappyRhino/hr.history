@@ -1,7 +1,7 @@
 {
     "name": "hr.history",
     "description": "History and router utility for HappyRhino",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "main": "./lib/index.js",
     "peerDependencies": {
         "hr.utils": "*",
