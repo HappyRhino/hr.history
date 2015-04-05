@@ -5,7 +5,8 @@
     "main": "./lib/index.js",
     "peerDependencies": {
         "hr.utils": "*",
-        "hr.class": "*"
+        "hr.class": "*",
+        "jquery": "*"
     },
     "devDependencies": {
         "hr.mocha": "0.2.0"
