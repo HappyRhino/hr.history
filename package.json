@@ -1,15 +1,10 @@
 {
     "name": "hr.history",
     "description": "History and router utility for HappyRhino",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "main": "./lib/index.js",
-    "peerDependencies": {
-        "hr.utils": "*",
-        "hr.class": "*",
-        "jquery": "*"
-    },
     "devDependencies": {
-        "hr.mocha": "0.2.0"
+        "hr.mocha": "^0.2.0"
     },
     "repository": {
         "type": "git",
@@ -17,5 +12,10 @@
     },
     "scripts": {
         "test": "./node_modules/.bin/hr-mocha ./tests/index.js"
+    },
+    "dependencies": {
+        "hr.utils": "*",
+        "hr.class": "*",
+        "jquery": "*"
     }
 }
